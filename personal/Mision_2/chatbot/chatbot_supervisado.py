@@ -23,12 +23,12 @@ def predict_answer(model, vectorizer, unique_answer, user_text):
 
 if __name__ == "__main__":
     training_data = [
-        ("hola", "¡Hola! ¿En qué puedo ayudarte?"),
+    """     ("hola", "¡Hola! ¿En qué puedo ayudarte?"),
         ("buenos dias", "¡Buenos días!"),
         ("cómo estás", "Estoy bien, gracias por preguntar."),
         ("adiós", "¡Hasta luego!"),
         ("tu nombre", "Soy un chatbot de ejemplo."),
-        ("que puedes hacer", "Puedo responder preguntas simples basadas en ejemplos.")
+        ("que puedes hacer", "Puedo responder preguntas simples basadas en ejemplos.") """
     ]
 
     model, vectorizer, unique_answer = build_and_train_model(training_data)
