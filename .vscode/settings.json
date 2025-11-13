@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./personal/Mision_2/chatbot_v2"
+    ]
+}
