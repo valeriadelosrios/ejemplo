@@ -16,3 +16,14 @@ img{
 .text-primary {
     color: #6d3636  !important;
 }
+
+/* Estilo para las card */
+
+.card{
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rbga(0,0,0,0.1);
+}

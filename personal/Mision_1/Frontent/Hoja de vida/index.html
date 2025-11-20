@@ -16,7 +16,7 @@
 
 <body>
 
-    <div class="container my-5">
+    <div id="pdf-content" class="container my-5">
         <div class="row shadow-lg rounded-4 overflow-hidden">
 
             <!-- Columna izquierda -->
@@ -41,15 +41,17 @@
                             </a>
                         </li>
 
-                        <li class="my-2">
+                        <li class="mb-2">
                             <i class="fas fa-envelope me-2"></i>valeriadelosrios45@gmail.com
                         </li>
 
                         <li class="mb-2">
-                            <a href="https://github.com/valeriadelosrios/ejemplo.git" target="_blank"
-                                class="text-white">
+                            <a href="https://github.com/valeriadelosrios" 
+                            target="_blank"
+                            class="text-white">
+                                
                                 <i class="fab fa-github me-2"></i>
-                                github.com/JulianDavidBuitrago
+                                github.com/valeriadelosrios
                             </a>
 
                         </li>
@@ -92,24 +94,102 @@
 
 
                 </section>
-
             </div>
 
-            <!-- Columna derecha -->
-            <div class="col-md-8 border-0 shadow-sm p-4">
+            
 
+           <!-- columna derecha -->
+             <div class="col-md-8 border-0 shadow-sm p-4">
+                
                 <section class="mb-5">
-                    <h4 class="fw-bold text-primary mb-4"> <i class="fas fa-briefcase me-2"></i>Experiencia Laboral</h4>
+                    <h4 class="fw-bold text-primary mb-4"> <i class="fas fa-briefcase me-2"></i>Experiencia Laboral </h4>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">
+                                Atención al cliente
+                            </h4>
+                            <!-- <h5 class="card-subtitle mb-2 text-muted medium" style="font-size: 20px;"> -->
+                            <h5 class="card-subtitle mb-2 text-muted medium small" >
+                                 Actualidad
+                            </h5>
+                           
+                            <ul class="my-4">
+                                <li>Mesera</li>
+                                <li>Almacen</li>
+                                <li>Axuliar cocina </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="mb-1">
+                    <h4 class="fw-bold text-primary mb-4">
+                        <i class="fas fa-graduation-cap me-2"></i>
+                        Educación
+                    </h4>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">
+                                Tecnologo integración de contenidos digitales
+                            </h4>
+                            <!-- <h5 class="card-subtitle mb-2 text-muted medium" style="font-size: 20px;"> -->
+                            <h5 class="card-subtitle mb-2 text-muted medium small" >
+                                2024 - Finalización
+                            </h5>
+                            <h6 class="text-primary">
+                                SENA    
+                            </h6>
+                            <ul class="my-4">
+                                <li>Contenido digital</li>
+                                <li>Modelados 3D</li>
+                                <li>Modelados 3D</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    </h4>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">
+                               Semillero de ingenieria de siistemas
+                            </h4>
+                            <!-- <h5 class="card-subtitle mb-2 text-muted medium" style="font-size: 20px;"> -->
+                            <h5 class="card-subtitle mb-2 text-muted medium small" >
+                                2024 - Finalización
+                            </h5>
+                            <h6 class="text-primary">
+                                Universidad Autónoma de Manizales
+                            </h6>
+                            <ul class="my-4">
+                                <li>Pensamiento logico</li>
+                                <li>Pensamiento logico</li>
+                                <li>Pensamiento logico</li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+
+                     <div class="text-center">
+
+                        <button onclick="downloadPDF()" class="btn btn-outline-primary px-4">
+                            <i class="fa-solid fa-file-arrow-down me-2"></i>
+                            Descargar PDF
+                        </button>
+
+                </section>
 
 
-
-            </div>
-
-        </div>
+                
 
     </div>
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
 </body>
 
 </html>
